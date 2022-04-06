@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# MovieLand
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+A sleek site to make sneaker shopping easy.
+Motivation for development:
+Easy access to popular shoes on high demand.
+Being able to order from a site you can trust.
 
-In the project directory, you can run:
+## User Story
 
-### `npm start`
+As an avid sneaker shopper I want an easy to use website that can be saved as a PWA so that I have a more accessible way to shop
+Acceptance Criteria:
+Given an e-commerce platform for buying shoes
+When I view the app’s store
+Then I see a front end created with React
+When I navigate the app
+Then it is interactive and responsive
+When I review the way the app determines changes to its global state
+Then I find that it passes reducers to a Redux store
+When I view the code for the app
+Then I see the MERN stack was used
+When I save the app to my home screen
+Then it functions like a native app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tools Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- JavaScript
+- Node.js
+- React
+- 3rd Party API
+- Heroku
 
-### `npm test`
+# Snapshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![MovieLand](src/Images/MovieLand.png)
 
-### `npm run build`
+# Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Summary](#Summary)
+- [User Story](#User)
+- [Tools Used](#Tools)
+- [Snapshot](#Snapshot)
+- [Installation & Database SetUp](#Installation)
+- [Heroku](#Heroku)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Installation & Database SetUp
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- To use this app npm init has to be called to create your package.json file.
+- The following necessary Npm dependencies must be installed to run the application properly: the needed dependencies will be found on the package.json file.
+- To properly install the database you must create at cluster on Mongodb atlas.
+- Run "npm start" for the port to start listening.
+- This app is deployed on Heroku
 
-### `npm run eject`
+# Heroku
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Check our app here](http://sneakerz-seekerz.herokuapp.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Contributions
 
-## Learn More
+​Contributors: Juan Gomez
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+N/A
 
-### Code Splitting
+# Questions?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Please contact me:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [My Portfolio](https://Juan-Carlos-Gomez.net)
+- [My GitHub Profile](https://github.com/jcgom3)
+- [My Github Project Repository](https://github.com/jcgom3/)
+- [My Github Deployed IO]()
+- Email me at: [Jcgom3@gmail.com](mailto:Jcgom3@gmail.com)

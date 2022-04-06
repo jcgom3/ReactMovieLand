@@ -58,7 +58,7 @@ Then it functions like a native app
 
 # Heroku
 
-[Check our app here](http://sneakerz-seekerz.herokuapp.com/)
+[Check our app here]()
 
 # License
 

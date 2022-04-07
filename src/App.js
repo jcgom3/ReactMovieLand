@@ -15,6 +15,7 @@ const movie = {
 }
 
 const App = () => {
+
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -23,7 +24,7 @@ const App = () => {
     const data = await response.json();
     setMovies(data.Search);
   };
-  useEffect(() => {
+  useEffect((movie) => {
     searchMovies("Batman");
   }, []);
 

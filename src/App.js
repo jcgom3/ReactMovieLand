@@ -13,8 +13,7 @@ const API_URL = "http://www.omdbapi.com?apikey=c1be11fa";
 //   Type: "movie",
 //   Poster:
 //     "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-//  };
-//  vvvv
+// };
 
 const App = () => {
   const [movies, setMovies] = useState([]);
@@ -25,7 +24,7 @@ const App = () => {
     setMovies(data.Search);
   };
   useEffect(() => {
-    searchMovies("Avengers");
+    searchMovies("Batman");
   }, []);
 
   return (

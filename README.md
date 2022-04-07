@@ -58,7 +58,7 @@ Then it functions like a native app
 
 # Heroku
 
-[Check our app here]()
+[Check our app here](https://624e29bcbd0e630964ecc644--elegant-cascaron-93da9b.netlify.app/)
 
 # License
 

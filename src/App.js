@@ -47,17 +47,15 @@ const App = () => {
         />
       </div>
 
-      {/* to map movieCard + terniary conditional*/}
       {movies?.length > 0 ? (
         <div className="container">
-          {/* dynamically mapping through the movie from useState, pass a movie prop on the movieCard component of movie  */}
           {movies.map((movie) => (
             <MovieCard movie={movie} />
           ))}
         </div>
       ) : (
         <div className="empty">
-          <h2>No Movies Found</h2>
+          <h2>No movies found</h2>
         </div>
       )}
     </div>

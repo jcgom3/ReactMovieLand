@@ -18,7 +18,7 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
-  useEffect((movie) => {
+  useEffect(() => {
     searchMovies("Batman");
   }, []);
 

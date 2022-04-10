@@ -42,7 +42,7 @@ Then it functions like a native app
 - [Tools Used](#Tools)
 - [Snapshot](#Snapshot)
 - [Installation & Database SetUp](#Installation)
-- [Heroku](#Heroku)
+- [Netlify](#Netlify)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -54,11 +54,11 @@ Then it functions like a native app
 - The following necessary Npm dependencies must be installed to run the application properly: the needed dependencies will be found on the package.json file.
 - To properly install the database you must create at cluster on Mongodb atlas.
 - Run "npm start" for the port to start listening.
-- This app is deployed on Heroku
+- This app is deployed on Netlify
 
-# Heroku
+# Netlify
 
-[Check our app here](https://624e29bcbd0e630964ecc644--elegant-cascaron-93da9b.netlify.app/)
+[Check our app here](https://quiet-biscuit-d10189.netlify.app)
 
 # License
 
